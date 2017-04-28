@@ -1,0 +1,27 @@
+{
+  "name": "trunksoftware/twig-transformer",
+  "type": "library",
+  "description": "TrunkSoftware Email Twig Transformer",
+  "homepage": "http://www.trunknetworks.com",
+  "authors": [
+	{
+	  "name": "Chris Weller",
+	  "email": "chris.weller@trunknetworks.com"
+	}
+  ],
+  "repositories": [
+	{
+	  "type": "composer",
+	  "url": "http://packages.trunksoftware.co.uk"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "TrunkSoftware\\Component\\TwigTransformer\\": "/src/"
+	}
+  },
+  "require": {
+	"Trunk/Wibbler": "0.*",
+	"Trunk/EmailLibrary": "0.*"
+  }
+}
