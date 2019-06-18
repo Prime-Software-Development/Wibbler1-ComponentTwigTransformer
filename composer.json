@@ -1,5 +1,5 @@
 {
-  "name": "trunksoftware/twig-transformer",
+  "name": "trunk/twig-transformer",
   "type": "library",
   "description": "TrunkSoftware Email Twig Transformer",
   "homepage": "http://www.trunknetworks.com",
@@ -11,17 +11,21 @@
   ],
   "repositories": [
 	{
-	  "type": "composer",
-	  "url": "http://packages.trunksoftware.co.uk"
+	  "type": "vcs",
+	  "url": "https://github.com/chrisweller/trunk-wibbler1"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/chrisweller/trunk-wibbler1-emaillibrary"
 	}
   ],
   "autoload": {
 	"psr-4": {
-	  "TrunkSoftware\\Component\\TwigTransformer\\": "/src/"
+	  "Trunk\\Component\\TwigTransformer\\": "/src/"
 	}
   },
   "require": {
-	"Trunk/Wibbler": "0.*",
-	"Trunk/EmailLibrary": "0.*"
+	"trunk/wibbler": "0.*",
+	"trunk/emaillibrary": "0.*"
   }
 }

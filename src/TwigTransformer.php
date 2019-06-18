@@ -1,5 +1,5 @@
 <?php
-namespace TrunkSoftware\Component\TwigTransformer;
+namespace Trunk\Component\TwigTransformer;
 
 use Trunk\EmailLibrary\EMail\transformer\BaseTransformer;
 use Trunk\Wibbler\WibblerDependencyContainer;
