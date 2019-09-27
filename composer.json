@@ -1,8 +1,8 @@
 {
-  "name": "trunk/twig-transformer",
+  "name": "primesoftwaredevelopment/twig-transformer",
   "type": "library",
-  "description": "TrunkSoftware Email Twig Transformer",
-  "homepage": "http://www.trunknetworks.com",
+  "description": "Prime Software Development Email Twig Transformer",
+  "homepage": "http://www.primesoftwaredevelopment.co.uk/",
   "authors": [
 	{
 	  "name": "Chris Weller",
@@ -12,11 +12,11 @@
   "repositories": [
 	{
 	  "type": "vcs",
-	  "url": "https://github.com/chrisweller/trunk-wibbler1"
+	  "url": "https://github.com/chrisweller/wibbler1-core"
 	},
 	{
 	  "type": "vcs",
-	  "url": "https://github.com/chrisweller/trunk-wibbler1-emaillibrary"
+	  "url": "https://github.com/chrisweller/wibbler1-emaillibrary"
 	}
   ],
   "autoload": {
@@ -25,7 +25,7 @@
 	}
   },
   "require": {
-	"trunk/wibbler": "0.*",
-	"trunk/emaillibrary": "0.*"
+	"primesoftwaredevelopment/wibbler": "1.*",
+	"primesoftwaredevelopment/emaillibrary": "1.*"
   }
 }
