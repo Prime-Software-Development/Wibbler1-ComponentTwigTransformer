@@ -26,6 +26,6 @@
   },
   "require": {
 	"primesoftwaredevelopment/wibbler": "1.*",
-	"primesoftwaredevelopment/emaillibrary": "1.*"
+	"primesoftwaredevelopment/emaillibrary": "*"
   }
 }
